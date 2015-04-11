@@ -1,0 +1,31 @@
+{
+  "name": "angular-starter",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Angular.js starter application",
+  "repository": "https://github.com/popularowl/angular-starter",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-junit-reporter":"latest",
+    "protractor": "1.1.x",
+    "http-server": "0.6.x",
+    "bower": "1.3.x"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server app -a localhost -p 8000 -c-1",
+
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js",
+    "test-single-run": "karma start karma.conf.js  --single-run",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "webdriver-manager update",
+
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "protractor e2e-tests/protractor.conf.js"
+  }
+}

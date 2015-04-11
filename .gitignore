@@ -1,0 +1,17 @@
+# Dependency directory
+# Removing npm directories. Some information here: 
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+npm
+
+# Grunt related
+.grunt
+
+# IDE and MacOSX specific
+.idea
+.DS_Store
+
+# Development and testing logs
+logs
+*.log
+tests/*log.xml
