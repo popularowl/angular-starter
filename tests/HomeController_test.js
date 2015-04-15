@@ -1,11 +1,11 @@
 'use strict';
 
-describe('HomeViewController Tests :', function() {
+describe('HomeController Tests :', function() {
 
   // Only loading one module which is being tested
   beforeEach(module('mostPopularListingsApp.home'));
 
-  describe('Loading HomeView controller. It', function(){
+  describe('Loading HomeController. It...', function(){
 
     // custom variables needed during the tests
     var scope;
@@ -19,13 +19,12 @@ describe('HomeViewController Tests :', function() {
     }));
 
 
-    it('should be defined', inject(function($controller) {
+    it('should be defined', inject(function() {
       expect(controller).toBeDefined();
     }));
 
-    it('should have property next defined', inject(function($controller) {
-      expect(controller.message).toEqual("Hello Home!");
-    
+    it('should have property next defined', inject(function() {
+      expect(controller.message).toEqual("Hello Home!");    
     }));
   });
 

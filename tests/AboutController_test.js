@@ -1,11 +1,11 @@
 'use strict';
 
-describe('AboutViewController Tests :', function() {
+describe('AboutController Tests :', function() {
 
   // Only loading one module which is being tested
   beforeEach(module('mostPopularListingsApp.about'));
 
-  describe('Loading AboutView controller. It', function(){
+  describe('Loading AboutController. It...', function(){
 
     // custom variables needed during the tests
     var scope;
