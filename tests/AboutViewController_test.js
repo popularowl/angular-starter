@@ -2,20 +2,30 @@
 
 describe('AboutViewController Tests :', function() {
 
-  beforeEach(module('mostPopularListingsApp'));
+  // Only loading one module which is being tested
+  beforeEach(module('mostPopularListingsApp.about'));
 
   describe('Loading AboutView controller. It', function(){
 
-    it('should be defined', inject(function($controller) {
-      //spec body
-      var homeViewController = $controller('AboutViewController');
-      expect(homeViewController).toBeDefined();
+    // custom variables needed during the tests
+    var scope;
+    var controller;
+
+    // Get the controller
+    beforeEach(inject(function($controller,$rootScope){
+      scope = $rootScope.$new(); // initializa child of global $rootScope
+      controller = $controller("AboutController", {$scope: scope}); // Controller expects $scope
+
     }));
 
-    it('should have property next defined', inject(function($controller) {
-      //spec body
-      var homeViewController = $controller('AboutViewController');
-      expect(homeViewController.message).toEqual("About!");
+
+    it('should be defined', inject(function() {
+      expect(controller).toBeDefined();
+    
+    }));
+
+    it('should have property next defined', inject(function() {
+      expect(controller.message).toEqual("Hello About!");
     
     }));
   });
