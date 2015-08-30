@@ -15,15 +15,13 @@ describe('LoginController Tests :', function() {
     beforeEach(inject(function($controller,$rootScope){
       scope = $rootScope.$new(); // initializa child of global $rootScope
       controller = $controller("LoginController", {$scope: scope}); // Controller expects $scope
-
     }));
-
 
     it('should be defined', inject(function() {
       expect(controller).toBeDefined();    
     }));
 
-    it('should have property next defined', inject(function() {
+    it('should have property message defined', inject(function() {
       expect(controller.message).toEqual("Login Time!");    
     }));
   });
