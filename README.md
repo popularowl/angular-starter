@@ -12,17 +12,11 @@ Angular Starter is a minimal [AngularJS](http://angularjs.org/) HTML5 applicatio
 - Angular Starter application has Continuous Integration configured to perfrom testing on every GitHub code push. Its like having an additional QA team member!
 - That's all!
 
-Summary of how this project was created together with the detailed component walkthrough can be found on [HTMLCenter Blog](http://www.htmlcenter.com/blog/building-angular-js-starter-application).
-
-Below is simple start up guide.
+Summary of how this project was created together with the detailed component walkthrough can be found on [HTMLCenter Blog](http://www.htmlcenter.com/blog/building-angular-js-starter-application). Below is a simple start-up guide.
 
 ### How to start Angular Starter
 
-How to start, test and use Angular Starter?
-
-You need [Node.js](https://nodejs.org/) to be installed in your dev environment and Angular Starter project depends on it.
-
-You should clone this project to you local dev environment:
+How to start, test and use Angular Starter? First, you need [Node.js](https://nodejs.org/) to be installed in your dev environment as Angular Starter project depends on it. Next, you should clone Angular Starter project to your dev environment:
     
     git clone https://github.com/popularowl/angular-starter.git
     
