@@ -53,7 +53,7 @@ angular.module('mostPopularListingsApp.login', ['ngRoute'])
 		    	// called asynchronously if an error occurs
 		    	// or server returns response with an error status.
 		    	responseStatus = errorResponse.status;
-		    	console.log(JSON.stringify(errorresponse));
+		    	console.log(JSON.stringify(errorResponse));
 
 		    	// assigning userIp to scope
 		    	return $scope.userip = userIp;
