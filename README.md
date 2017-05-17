@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/popularowl/angular-starter.svg?branch=master)](https://travis-ci.org/popularowl/angular-starter/)
+
 ## Angular Starter
 
 ### Minimal Angular.js app
@@ -22,9 +24,9 @@ How to start, test and use Angular Starter? First, you need [Node.js](https://no
     
 Once the project is cloned you can use the following commands to run and test the project:
 
-- **npm start** (will start the local web server on localhost:8000)
-- **npm test** (will start karma for countinous testing once code changes are detected)
-- **npm test-single-run** (will start karma for one single test run)
+- **npm run start** (will start the local web server on localhost:8000)
+- **npm run test** (will start karma for countinous testing once code changes are detected)
+- **npm run test-single-run** (will start karma for one single test run)
 
 Above commands are defined in the **package.json** configuration file in the root of the project. Check it out to understand what is exactly executed once above commands are run.
 
