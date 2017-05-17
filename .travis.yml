@@ -3,6 +3,6 @@ language: node_js
 node_js:
   - 4
 before_script:
-    npm install 
+    echo 'before placeholder' 
 script:
-    npm test-single-run
+    npm run test-single-run
