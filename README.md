@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/popularowl/angular-starter.svg?branch=master)](https://travis-ci.org/popularowl/angular-starter/)
-
 ## Angular Starter
+
+> Note: this project is no longer actively maintained.
 
 ### Minimal Angular.js app
 
